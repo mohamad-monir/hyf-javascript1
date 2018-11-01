@@ -1,0 +1,17 @@
+//exersice 1 (string);
+let myString = "hello,this,is,a,difficult,to,read,sentence";
+console.log(myString);
+console.log(myString.length);
+let newString = myString.replace(/,/g,' ');
+console.log(newString);
+//exersice 2 (Arrays);
+let favoriteAnimals = ["blowfish", "capricorn", "giraffe"];
+console.log(favoriteAnimals.push("turtle"));
+console.log(favoriteAnimals);
+favoriteAnimals.splice(1,0,"meerkat");
+console.log("the new character suppose to be add at position 1 using splice");
+console.log(favoriteAnimals);
+console.log("The array has a length of: "+favoriteAnimals.length);
+favoriteAnimals.splice(3,1);
+console.log(favoriteAnimals);
+console.log("The item you are looking for is at index",favoriteAnimals.indexOf("meerkat"));
